@@ -1,0 +1,142 @@
+body {
+    display: fixed;
+    margin-right: 0%;
+    margin-left: 200px;
+}
+
+#menu {
+    position: block;
+    width: 25%;
+    margin-left: -238px;
+    padding: 0;
+    
+    left: 0;
+}
+
+#menu ul li {
+    margin: 0; padding: 0px;
+	border-bottom: 1px solid #CCC;
+	text-align: left;
+	list-style-type: none;
+}
+
+#menu a:link {
+	background: #F5F5F5;
+	color: #666;
+    font-weight: bold;
+	text-decoration: none;
+	padding: 8px;
+	display: block;
+}
+        
+#menu a:hover {
+    background: #E5F0FF;
+    color: #039;
+} 
+
+#content {
+    background-color: white;
+    text-align: justify;
+    margin-left: 200px;
+    min-height: 500px;
+    padding: 20px;
+}
+
+#table {
+    background-color: white;
+    margin-left: 200px;
+    min-height: 500px;
+    padding: 20px;
+    
+}
+#formulario {
+    background-color: white;
+    margin-left: 200px;
+    min-height: 500px;
+    padding: 20px;
+}
+
+.row {
+    margin: 5px;
+}
+
+.button {
+    margin-left: 30px;
+}
+
+fieldset {
+    width: 550px;
+}
+
+label {
+    width: 100px;
+    text-align: right;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+header img {
+    width: auto;
+    height: auto;
+    margin-left: 200px;
+    margin-top: -155px;
+}
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.col-md-4 {
+    margin-bottom: 30px;
+}
+
+.social-icons {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-icons i {
+    font-size: 30px;
+    color: #000000;
+}
+
+
+footer {
+    background-color: #3992bb;
+    padding: 50px 0;
+    margin-left: -238px;
+}
+
+.container {
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #000000;
+}
+
+.cor p{
+    font-size: 3em;
+    color: #000000;
+}
+
+.tabela, th, td {
+    border-collapse: collapse;
+    cursor: pointer;
+    padding: 10px;
+    font: bolder;
+}
+
+th {
+    background-color: lightgray;
+}
+td:nth-child(odd) {
+    background-color: lightgray;
+}
